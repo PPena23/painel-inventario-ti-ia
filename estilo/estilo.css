@@ -1,0 +1,56 @@
+/* Ajustes visuais por cima do tema do Streamlit (.streamlit/config.toml). */
+
+:root {
+  --cartao: #1A2436;
+  --borda: #2B3A52;
+  --destaque: #4FA3E0;
+  --texto-suave: #94A3B8;
+}
+
+/* menos espaço vazio no topo da página */
+.block-container {
+  padding-top: 2.5rem;
+}
+
+/* título com uma faixa de destaque embaixo */
+h1 {
+  border-bottom: 3px solid var(--destaque);
+  padding-bottom: 0.4rem;
+  display: inline-block;
+}
+
+/* indicadores (st.metric) viram cartões */
+[data-testid="stMetric"] {
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-left: 4px solid var(--destaque);
+  border-radius: 10px;
+  padding: 0.9rem 1rem;
+}
+[data-testid="stMetricLabel"] {
+  color: var(--texto-suave);
+}
+[data-testid="stMetricValue"] {
+  font-size: 1.6rem;
+}
+
+/* gráficos e formulário em cartões com a mesma linguagem visual */
+[data-testid="stPlotlyChart"],
+[data-testid="stForm"] {
+  background: var(--cartao);
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+/* no formulário os campos já usam a cor de cartão; fundo transparente
+   mantém o contraste entre campo e moldura */
+[data-testid="stForm"] {
+  background: transparent;
+  padding: 1rem;
+}
+
+/* esconde o botão "Deploy" de desenvolvimento */
+[data-testid="stAppDeployButton"] {
+  display: none;
+}

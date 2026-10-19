@@ -1,0 +1,201 @@
+codigo,tipo,marca,modelo,setor,responsavel,status,sistema,ram_gb,saude_disco_pct,data_aquisicao,garantia_ate,valor_rs
+TI-000001,Monitor,LG,24MP400,Financeiro,Henrique Costa,Em uso,—,,,2023-08-18,2026-08-17,707.95
+TI-000002,Notebook,Dell,Latitude 3440,Diretoria,Ana Oliveira,Em uso,Windows 10 Pro,16.0,71.0,2021-01-17,2024-01-17,5142.83
+TI-000003,Celular,Samsung,Galaxy A55,RH,,Estoque,Android,,,2024-12-03,2027-12-03,1993.29
+TI-000004,Switch,TP-Link,TL-SG3428,TI,,Em uso,—,,,2025-07-26,2026-07-26,1579.49
+TI-000005,Desktop,Lenovo,ThinkCentre M70s,RH,Olívia Oliveira,Manutenção,Windows 11 Pro,16.0,97.0,2026-03-24,2029-03-23,4108.29
+TI-000006,Monitor,LG,24MP400,Produção,,Descartado,—,,,2024-02-27,2025-02-26,916.62
+TI-000007,Desktop,Lenovo,ThinkCentre M70s,Produção,Lucas Gomes,Em uso,Windows 11 Pro,16.0,79.0,2022-08-15,2023-08-15,3528.76
+TI-000008,Desktop,Dell,OptiPlex 3000,Logística,,Descartado,Windows 11 Pro,16.0,71.0,2023-01-28,2026-01-27,3548.06
+TI-000009,Notebook,HP,ProBook 440 G10,TI,Paulo Lima,Em uso,Windows 11 Pro,16.0,70.0,2023-03-09,2024-03-08,4369.94
+TI-000010,Monitor,Dell,P2422H,Qualidade,Tatiana Lima,Em uso,—,,,2020-02-27,2021-02-26,1303.81
+TI-000011,Notebook,Dell,Latitude 3440,Financeiro,Fábio Rocha,Em uso,Windows 10 Pro,32.0,92.0,2025-06-25,2028-06-24,5046.58
+TI-000012,Switch,Cisco,CBS250-24T,TI,,Estoque,—,,,2025-06-05,2028-06-04,2600.4
+TI-000013,Desktop,Lenovo,ThinkCentre M70s,Diretoria,Isabela Oliveira,Manutenção,Windows 11 Pro,16.0,99.0,2026-09-04,2027-09-04,3513.97
+TI-000014,Celular,Samsung,Galaxy A55,Financeiro,Paulo Almeida,Em uso,Android,,,2019-12-30,2022-12-29,2043.67
+TI-000015,Notebook,HP,ProBook 440 G10,Diretoria,Paulo Barbosa,Em uso,Windows 11 Pro,16.0,91.0,2025-10-30,2028-10-29,5420.27
+TI-000016,Notebook,HP,ProBook 440 G10,Logística,Gabriela Oliveira,Em uso,Windows 10 Pro,32.0,46.0,2019-11-29,2022-11-28,4657.15
+TI-000017,Monitor,LG,24MP400,Administrativo,Carla Gomes,Em uso,—,,,2023-12-07,2024-12-06,701.8
+TI-000018,Monitor,LG,24MP400,Financeiro,Bruno Gomes,Em uso,—,,,2024-02-23,2027-02-22,867.24
+TI-000019,Notebook,Dell,Latitude 3440,RH,Paulo Dias,Em uso,Windows 11 Pro,8.0,49.0,2020-04-23,2021-04-23,5254.37
+TI-000020,Desktop,Lenovo,ThinkCentre M70s,Financeiro,Bruno Rocha,Manutenção,Windows 11 Pro,32.0,61.0,2021-06-23,2024-06-22,4420.83
+TI-000021,Notebook,Dell,Latitude 3440,Produção,Olívia Costa,Em uso,Windows 10 Pro,16.0,86.0,2024-07-30,2025-07-30,4909.01
+TI-000022,Celular,Samsung,Galaxy A55,Diretoria,,Estoque,Android,,,2026-02-22,2027-02-22,2455.82
+TI-000023,Celular,Samsung,Galaxy A55,RH,Paulo Dias,Em uso,Android,,,2022-02-26,2023-02-26,2127.38
+TI-000024,Servidor,Dell,PowerEdge T150,TI,,Em uso,Windows Server 2022,16.0,68.0,2021-08-11,2022-08-11,15483.54
+TI-000025,Switch,Cisco,CBS250-24T,TI,,Em uso,—,,,2023-03-13,2026-03-12,2952.57
+TI-000026,Celular,Samsung,Galaxy A55,Financeiro,Carla Costa,Em uso,Android,,,2026-01-28,2027-01-28,2142.27
+TI-000027,Impressora,Brother,DCP-L5652DN,Administrativo,,Em uso,—,,,2020-03-21,2023-03-21,3325.9
+TI-000028,Monitor,Dell,P2422H,Produção,Karina Dias,Em uso,—,,,2023-10-15,2024-10-14,1368.68
+TI-000029,Notebook,Lenovo,ThinkPad E14,Financeiro,Olívia Pereira,Em uso,Windows 11 Pro,16.0,92.0,2025-11-24,2028-11-23,4725.18
+TI-000030,Desktop,Dell,OptiPlex 3000,Diretoria,João Costa,Em uso,Windows 10 Pro,8.0,83.0,2023-12-22,2026-12-21,4411.28
+TI-000031,Notebook,Dell,Latitude 3440,Produção,Diego Souza,Em uso,Windows 10 Pro,16.0,79.0,2023-09-30,2026-09-29,4525.76
+TI-000032,Monitor,Dell,P2422H,Financeiro,Isabela Almeida,Em uso,—,,,2021-01-16,2024-01-16,1117.63
+TI-000033,Desktop,Dell,OptiPlex 3000,Diretoria,Olívia Oliveira,Em uso,Windows 11 Pro,8.0,77.0,2023-10-11,2024-10-10,4428.57
+TI-000034,Monitor,LG,24MP400,Diretoria,Lucas Pereira,Em uso,—,,,2020-08-05,2023-08-05,731.86
+TI-000035,Desktop,Dell,OptiPlex 3000,Diretoria,Henrique Rocha,Em uso,Windows 10 Pro,16.0,82.0,2022-09-13,2023-09-13,4323.99
+TI-000036,Switch,Cisco,CBS250-24T,TI,,Em uso,—,,,2022-02-02,2025-02-01,3204.15
+TI-000037,Desktop,Dell,OptiPlex 3000,TI,Diego Lima,Em uso,Windows 11 Pro,16.0,74.0,2023-09-21,2026-09-20,3654.56
+TI-000038,Celular,Samsung,Galaxy A55,Qualidade,Gabriela Lima,Em uso,Android,,,2024-03-18,2025-03-18,2480.13
+TI-000039,Notebook,HP,ProBook 440 G10,Financeiro,Sérgio Gomes,Em uso,Windows 10 Pro,16.0,50.0,2020-12-31,2023-12-31,4057.39
+TI-000040,Monitor,Dell,P2422H,Financeiro,Vítor Oliveira,Em uso,—,,,2023-03-13,2024-03-12,1201.89
+TI-000041,Monitor,LG,24MP400,RH,Gabriela Gomes,Em uso,—,,,2020-11-18,2023-11-18,855.79
+TI-000042,Monitor,LG,24MP400,RH,João Rocha,Em uso,—,,,2023-05-06,2026-05-05,874.3
+TI-000043,Monitor,LG,24MP400,RH,,Estoque,—,,,2021-12-30,2024-12-29,801.52
+TI-000044,Celular,Motorola,Moto G84,Qualidade,Nelson Pereira,Em uso,Android,,,2023-06-30,2026-06-29,1476.86
+TI-000045,Notebook,Lenovo,ThinkPad E14,Diretoria,,Estoque,Windows 10 Pro,8.0,91.0,2024-10-22,2025-10-22,5643.75
+TI-000046,Notebook,Dell,Latitude 3440,Financeiro,Bruno Dias,Em uso,Windows 10 Pro,32.0,85.0,2025-01-22,2026-01-22,5349.35
+TI-000047,Desktop,Lenovo,ThinkCentre M70s,Logística,Ana Barbosa,Em uso,Windows 11 Pro,32.0,78.0,2023-12-23,2024-12-22,4080.37
+TI-000048,Impressora,Brother,DCP-L5652DN,TI,,Em uso,—,,,2021-08-05,2024-08-04,3290.12
+TI-000049,Monitor,Samsung,LS24C310,TI,Olívia Costa,Em uso,—,,,2021-12-05,2024-12-04,837.94
+TI-000050,Celular,Motorola,Moto G84,TI,Henrique Ferreira,Em uso,Android,,,2020-11-12,2023-11-12,1393.8
+TI-000051,Desktop,Dell,OptiPlex 3000,Logística,Henrique Lima,Em uso,Windows 11 Pro,32.0,88.0,2025-02-28,2028-02-28,3630.15
+TI-000052,Desktop,Dell,OptiPlex 3000,Administrativo,Mariana Pereira,Em uso,Windows 10 Pro,32.0,79.0,2024-05-23,2025-05-23,4425.56
+TI-000053,Notebook,Lenovo,ThinkPad E14,TI,Sérgio Pereira,Em uso,Windows 11 Pro,16.0,59.0,2022-01-05,2025-01-04,5325.59
+TI-000054,Desktop,Lenovo,ThinkCentre M70s,RH,Elisa Pereira,Em uso,Windows 11 Pro,8.0,87.0,2024-11-10,2027-11-10,3489.98
+TI-000055,Desktop,Dell,OptiPlex 3000,Qualidade,Karina Dias,Em uso,Windows 10 Pro,16.0,81.0,2023-10-18,2026-10-17,3527.95
+TI-000056,Notebook,Dell,Latitude 3440,Administrativo,Lucas Dias,Em uso,Windows 11 Pro,16.0,56.0,2020-08-30,2021-08-30,5542.77
+TI-000057,Monitor,LG,24MP400,Logística,Diego Pereira,Em uso,—,,,2025-04-18,2028-04-17,891.72
+TI-000058,Notebook,HP,ProBook 440 G10,Produção,,Descartado,Windows 11 Pro,8.0,89.0,2025-06-05,2028-06-04,4863.7
+TI-000059,Impressora,HP,LaserJet M432,Logística,,Manutenção,—,,,2022-04-07,2023-04-07,3091.71
+TI-000060,Celular,Samsung,Galaxy A55,RH,Lucas Oliveira,Em uso,Android,,,2020-05-13,2021-05-13,2203.58
+TI-000061,Desktop,Lenovo,ThinkCentre M70s,TI,Nelson Gomes,Em uso,Windows 11 Pro,32.0,60.0,2021-03-20,2022-03-20,4327.31
+TI-000062,Switch,TP-Link,TL-SG3428,TI,,Em uso,—,,,2019-10-22,2022-10-21,1617.79
+TI-000063,Monitor,Dell,P2422H,TI,Carla Ferreira,Em uso,—,,,2023-02-05,2026-02-04,1327.94
+TI-000064,Monitor,Dell,P2422H,TI,Karina Costa,Em uso,—,,,2026-05-23,2029-05-22,1419.13
+TI-000065,Desktop,Lenovo,ThinkCentre M70s,RH,Renata Dias,Em uso,Windows 10 Pro,16.0,72.0,2020-06-24,2023-06-24,4204.26
+TI-000066,Desktop,Dell,OptiPlex 3000,Produção,Henrique Lima,Em uso,Windows 10 Pro,32.0,92.0,2025-09-01,2028-08-31,3753.15
+TI-000067,Monitor,Dell,P2422H,TI,,Estoque,—,,,2022-10-07,2025-10-06,1200.56
+TI-000068,Notebook,Dell,Latitude 3440,Logística,Sérgio Souza,Em uso,Windows 10 Pro,16.0,82.0,2023-03-05,2026-03-04,5768.82
+TI-000069,Celular,Motorola,Moto G84,Administrativo,Fábio Ferreira,Em uso,Android,,,2024-02-29,2027-02-28,1318.21
+TI-000070,Notebook,Lenovo,ThinkPad E14,TI,,Estoque,Windows 11 Pro,8.0,87.0,2025-04-18,2028-04-17,5297.97
+TI-000071,Desktop,Dell,OptiPlex 3000,RH,Paulo Barbosa,Em uso,Windows 10 Pro,8.0,95.0,2026-02-19,2027-02-19,3397.25
+TI-000072,Celular,Motorola,Moto G84,RH,Diego Oliveira,Em uso,Android,,,2025-10-04,2028-10-03,1480.21
+TI-000073,Desktop,Lenovo,ThinkCentre M70s,Financeiro,Vítor Almeida,Em uso,Windows 11 Pro,16.0,75.0,2023-04-16,2026-04-15,4224.6
+TI-000074,Notebook,Dell,Latitude 3440,TI,Fábio Almeida,Em uso,Windows 10 Pro,8.0,62.0,2020-07-10,2021-07-10,4660.97
+TI-000075,Notebook,Lenovo,ThinkPad E14,Produção,,Estoque,Windows 11 Pro,32.0,95.0,2025-11-30,2026-11-30,5425.76
+TI-000076,Monitor,Dell,P2422H,Produção,Bruno Costa,Em uso,—,,,2025-02-12,2028-02-12,1149.74
+TI-000077,Monitor,Samsung,LS24C310,TI,Renata Oliveira,Em uso,—,,,2022-03-14,2023-03-14,799.51
+TI-000078,Celular,Motorola,Moto G84,Logística,Ana Barbosa,Em uso,Android,,,2019-12-11,2022-12-10,1530.5
+TI-000079,Celular,Samsung,Galaxy A55,Comercial,Olívia Ferreira,Em uso,Android,,,2021-06-08,2024-06-07,2481.43
+TI-000080,Desktop,Lenovo,ThinkCentre M70s,TI,Diego Costa,Em uso,Windows 10 Pro,32.0,78.0,2022-12-22,2023-12-22,3936.76
+TI-000081,Desktop,Lenovo,ThinkCentre M70s,Diretoria,,Descartado,Windows 11 Pro,32.0,92.0,2025-05-31,2028-05-30,3375.89
+TI-000082,Monitor,Samsung,LS24C310,TI,,Estoque,—,,,2021-02-14,2022-02-14,716.76
+TI-000083,Notebook,Lenovo,ThinkPad E14,Administrativo,,Estoque,Windows 11 Pro,16.0,68.0,2021-10-19,2024-10-18,5436.43
+TI-000084,Monitor,LG,24MP400,Comercial,Olívia Barbosa,Em uso,—,,,2024-03-11,2027-03-11,827.22
+TI-000085,Notebook,Lenovo,ThinkPad E14,Logística,Olívia Oliveira,Em uso,Windows 11 Pro,8.0,75.0,2021-06-01,2024-05-31,5813.55
+TI-000086,Celular,Motorola,Moto G84,Produção,Ana Ferreira,Em uso,Android,,,2021-01-07,2022-01-07,1478.62
+TI-000087,Desktop,Lenovo,ThinkCentre M70s,TI,,Descartado,Windows 10 Pro,16.0,58.0,2020-07-10,2021-07-10,4100.52
+TI-000088,Notebook,Lenovo,ThinkPad E14,RH,Paulo Souza,Em uso,Windows 10 Pro,16.0,95.0,2026-03-23,2029-03-22,6140.2
+TI-000089,Notebook,HP,ProBook 440 G10,TI,Olívia Barbosa,Em uso,Windows 11 Pro,16.0,75.0,2022-12-28,2025-12-27,5306.4
+TI-000090,Switch,Cisco,CBS250-24T,TI,,Em uso,—,,,2021-06-12,2024-06-11,3084.85
+TI-000091,Celular,Motorola,Moto G84,TI,,Estoque,Android,,,2023-02-28,2024-02-28,1393.91
+TI-000092,Monitor,Dell,P2422H,Financeiro,Carla Lima,Manutenção,—,,,2024-02-29,2027-02-28,1166.55
+TI-000093,Notebook,Dell,Latitude 3440,RH,Bruno Ferreira,Em uso,Windows 11 Pro,16.0,97.0,2026-03-13,2029-03-12,5105.48
+TI-000094,Celular,Samsung,Galaxy A55,Logística,Vítor Lima,Em uso,Android,,,2024-09-30,2025-09-30,2039.31
+TI-000095,Monitor,Dell,P2422H,Administrativo,,Estoque,—,,,2023-11-07,2026-11-06,1371.04
+TI-000096,Notebook,Lenovo,ThinkPad E14,Produção,João Rocha,Em uso,Windows 10 Pro,16.0,65.0,2022-11-02,2023-11-02,6198.94
+TI-000097,Celular,Samsung,Galaxy A55,Produção,Tatiana Gomes,Em uso,Android,,,2024-01-20,2025-01-19,2486.77
+TI-000098,Monitor,Dell,P2422H,TI,Bruno Pereira,Em uso,—,,,2026-08-15,2027-08-15,1342.83
+TI-000099,Desktop,Dell,OptiPlex 3000,Comercial,,Estoque,Windows 11 Pro,8.0,77.0,2023-11-26,2026-11-25,4225.19
+TI-000100,Notebook,Lenovo,ThinkPad E14,Comercial,João Gomes,Em uso,Windows 11 Pro,16.0,88.0,2025-03-28,2028-03-27,5402.45
+TI-000101,Impressora,Brother,DCP-L5652DN,Produção,,Em uso,—,,,2023-10-31,2024-10-30,3174.67
+TI-000102,Notebook,Dell,Latitude 3440,Administrativo,Lucas Barbosa,Em uso,Windows 10 Pro,8.0,64.0,2022-04-04,2025-04-03,4789.74
+TI-000103,Monitor,Dell,P2422H,Logística,Lucas Barbosa,Em uso,—,,,2020-02-27,2021-02-26,1347.82
+TI-000104,Impressora,HP,LaserJet M432,Financeiro,,Em uso,—,,,2019-11-15,2022-11-14,3584.32
+TI-000105,Notebook,Dell,Latitude 3440,Diretoria,Paulo Barbosa,Em uso,Windows 11 Pro,32.0,98.0,2026-04-18,2029-04-17,4793.62
+TI-000106,Impressora,HP,LaserJet M432,Comercial,,Manutenção,—,,,2020-02-16,2021-02-15,3750.32
+TI-000107,Monitor,Dell,P2422H,Qualidade,,Estoque,—,,,2026-05-06,2029-05-05,1277.88
+TI-000108,Notebook,Lenovo,ThinkPad E14,Qualidade,,Estoque,Windows 11 Pro,32.0,93.0,2025-08-07,2028-08-06,4822.67
+TI-000109,Notebook,Lenovo,ThinkPad E14,Administrativo,,Estoque,Windows 11 Pro,16.0,94.0,2025-09-07,2026-09-07,6181.0
+TI-000110,Celular,Samsung,Galaxy A55,Diretoria,,Descartado,Android,,,2025-12-10,2026-12-10,2387.83
+TI-000111,Notebook,Dell,Latitude 3440,Diretoria,Isabela Costa,Em uso,Windows 10 Pro,16.0,39.0,2020-01-11,2021-01-10,5257.69
+TI-000112,Notebook,Dell,Latitude 3440,Produção,Tatiana Gomes,Em uso,Windows 11 Pro,16.0,83.0,2022-09-11,2025-09-10,5041.74
+TI-000113,Monitor,Dell,P2422H,Qualidade,,Descartado,—,,,2021-09-07,2024-09-06,1301.54
+TI-000114,Impressora,Brother,DCP-L5652DN,TI,,Em uso,—,,,2020-11-12,2021-11-12,3598.87
+TI-000115,Celular,Motorola,Moto G84,Financeiro,Olívia Barbosa,Em uso,Android,,,2025-07-02,2026-07-02,1326.27
+TI-000116,Notebook,HP,ProBook 440 G10,Diretoria,Karina Lima,Em uso,Windows 10 Pro,32.0,40.0,2020-02-24,2023-02-23,4148.77
+TI-000117,Monitor,Samsung,LS24C310,TI,Gabriela Lima,Manutenção,—,,,2020-07-12,2023-07-12,734.73
+TI-000118,Desktop,Lenovo,ThinkCentre M70s,Qualidade,Nelson Gomes,Em uso,Windows 11 Pro,32.0,92.0,2025-08-24,2026-08-24,3427.71
+TI-000119,Notebook,Lenovo,ThinkPad E14,Diretoria,Lucas Costa,Manutenção,Windows 10 Pro,8.0,92.0,2025-08-18,2028-08-17,5101.12
+TI-000120,Monitor,Dell,P2422H,Qualidade,Vítor Ferreira,Em uso,—,,,2026-02-19,2027-02-19,1161.89
+TI-000121,Desktop,Dell,OptiPlex 3000,Logística,Lucas Barbosa,Em uso,Windows 10 Pro,8.0,69.0,2022-10-14,2025-10-13,3237.64
+TI-000122,Notebook,Lenovo,ThinkPad E14,RH,Ana Costa,Em uso,Windows 11 Pro,16.0,67.0,2022-11-26,2023-11-26,4655.99
+TI-000123,Monitor,Dell,P2422H,Qualidade,Karina Costa,Em uso,—,,,2022-01-02,2025-01-01,1410.73
+TI-000124,Monitor,LG,24MP400,Administrativo,Fábio Pereira,Em uso,—,,,2026-02-14,2029-02-13,810.78
+TI-000125,Desktop,Lenovo,ThinkCentre M70s,RH,Gabriela Oliveira,Em uso,Windows 11 Pro,16.0,78.0,2022-01-25,2025-01-24,4037.71
+TI-000126,Desktop,Dell,OptiPlex 3000,Logística,Bruno Almeida,Em uso,Windows 11 Pro,16.0,77.0,2022-04-13,2025-04-12,3626.56
+TI-000127,Notebook,HP,ProBook 440 G10,Logística,Elisa Lima,Em uso,Windows 10 Pro,8.0,67.0,2021-11-19,2024-11-18,5292.65
+TI-000128,Notebook,Dell,Latitude 3440,RH,Karina Pereira,Em uso,Windows 10 Pro,16.0,68.0,2021-07-22,2022-07-22,4848.05
+TI-000129,Switch,Cisco,CBS250-24T,TI,,Estoque,—,,,2021-07-21,2022-07-21,2893.04
+TI-000130,Notebook,Lenovo,ThinkPad E14,Produção,Renata Barbosa,Em uso,Windows 10 Pro,16.0,60.0,2020-02-09,2023-02-08,5824.5
+TI-000131,Notebook,HP,ProBook 440 G10,Qualidade,Renata Dias,Em uso,Windows 10 Pro,16.0,88.0,2025-06-07,2026-06-07,4154.21
+TI-000132,Notebook,Dell,Latitude 3440,TI,Carla Costa,Em uso,Windows 10 Pro,32.0,40.0,2019-12-16,2022-12-15,5582.79
+TI-000133,Monitor,LG,24MP400,Produção,Paulo Martins,Em uso,—,,,2021-10-12,2022-10-12,787.99
+TI-000134,Notebook,Lenovo,ThinkPad E14,Financeiro,Bruno Gomes,Em uso,Windows 11 Pro,32.0,58.0,2021-08-23,2024-08-22,5486.56
+TI-000135,Switch,Cisco,CBS250-24T,TI,,Em uso,—,,,2021-09-01,2024-08-31,3044.51
+TI-000136,Monitor,LG,24MP400,Financeiro,Karina Souza,Em uso,—,,,2021-08-29,2022-08-29,761.94
+TI-000137,Desktop,Lenovo,ThinkCentre M70s,Produção,Vítor Costa,Em uso,Windows 10 Pro,32.0,65.0,2020-11-01,2023-11-01,4250.46
+TI-000138,Notebook,HP,ProBook 440 G10,RH,Karina Barbosa,Em uso,Windows 10 Pro,16.0,74.0,2022-12-17,2023-12-17,4500.04
+TI-000139,Monitor,LG,24MP400,Financeiro,Mariana Costa,Em uso,—,,,2022-10-16,2025-10-15,860.87
+TI-000140,Desktop,Dell,OptiPlex 3000,Qualidade,Nelson Oliveira,Em uso,Windows 10 Pro,16.0,65.0,2020-10-22,2021-10-22,3644.25
+TI-000141,Celular,Samsung,Galaxy A55,Produção,Elisa Barbosa,Em uso,Android,,,2024-03-04,2025-03-04,2297.16
+TI-000142,Celular,Samsung,Galaxy A55,Comercial,Elisa Costa,Em uso,Android,,,2020-01-06,2023-01-05,1926.22
+TI-000143,Desktop,Dell,OptiPlex 3000,Logística,João Souza,Em uso,Windows 11 Pro,16.0,60.0,2021-09-24,2024-09-23,4375.17
+TI-000144,Notebook,HP,ProBook 440 G10,Diretoria,Olívia Ferreira,Em uso,Windows 10 Pro,16.0,49.0,2020-04-25,2021-04-25,5201.89
+TI-000145,Notebook,Lenovo,ThinkPad E14,Qualidade,,Estoque,Windows 11 Pro,8.0,96.0,2026-02-16,2029-02-15,4642.59
+TI-000146,Notebook,Lenovo,ThinkPad E14,Logística,Nelson Barbosa,Em uso,Windows 10 Pro,16.0,49.0,2020-12-15,2021-12-15,5205.32
+TI-000147,Desktop,Lenovo,ThinkCentre M70s,Qualidade,Carla Gomes,Em uso,Windows 11 Pro,16.0,86.0,2024-01-26,2025-01-25,3492.64
+TI-000148,Notebook,Lenovo,ThinkPad E14,TI,,Descartado,Windows 11 Pro,8.0,88.0,2025-02-26,2026-02-26,4935.07
+TI-000149,Celular,Motorola,Moto G84,Produção,,Descartado,Android,,,2025-06-19,2028-06-18,1348.74
+TI-000150,Notebook,HP,ProBook 440 G10,Administrativo,Diego Martins,Em uso,Windows 11 Pro,16.0,64.0,2021-08-02,2024-08-01,4643.86
+TI-000151,Monitor,LG,24MP400,Financeiro,Fábio Rocha,Em uso,—,,,2020-04-24,2021-04-24,938.35
+TI-000152,Monitor,Samsung,LS24C310,Administrativo,Mariana Martins,Em uso,—,,,2020-07-01,2023-07-01,713.41
+TI-000153,Notebook,Dell,Latitude 3440,Qualidade,Diego Pereira,Em uso,Windows 11 Pro,8.0,70.0,2022-11-05,2025-11-04,5073.62
+TI-000154,Celular,Samsung,Galaxy A55,TI,,Estoque,Android,,,2021-07-02,2022-07-02,1937.86
+TI-000155,Celular,Motorola,Moto G84,Logística,Gabriela Almeida,Em uso,Android,,,2026-04-19,2029-04-18,1673.35
+TI-000156,Monitor,Samsung,LS24C310,Logística,Bruno Rocha,Em uso,—,,,2021-05-27,2024-05-26,865.53
+TI-000157,Notebook,HP,ProBook 440 G10,RH,Diego Gomes,Em uso,Windows 10 Pro,32.0,76.0,2022-12-28,2025-12-27,5460.59
+TI-000158,Desktop,Lenovo,ThinkCentre M70s,Financeiro,Isabela Barbosa,Em uso,Windows 10 Pro,16.0,68.0,2022-08-05,2025-08-04,3749.7
+TI-000159,Notebook,HP,ProBook 440 G10,Comercial,Olívia Pereira,Em uso,Windows 10 Pro,16.0,74.0,2023-05-26,2026-05-25,4063.53
+TI-000160,Celular,Motorola,Moto G84,Administrativo,Isabela Rocha,Em uso,Android,,,2019-10-26,2022-10-25,1445.32
+TI-000161,Celular,Samsung,Galaxy A55,TI,Vítor Rocha,Em uso,Android,,,2026-05-13,2027-05-13,1940.34
+TI-000162,Celular,Motorola,Moto G84,Comercial,Tatiana Almeida,Em uso,Android,,,2022-08-26,2025-08-25,1448.81
+TI-000163,Celular,Samsung,Galaxy A55,Produção,Mariana Gomes,Em uso,Android,,,2020-10-10,2021-10-10,1915.55
+TI-000164,Notebook,HP,ProBook 440 G10,TI,Diego Ferreira,Em uso,Windows 11 Pro,16.0,65.0,2022-05-16,2025-05-15,4300.27
+TI-000165,Notebook,Dell,Latitude 3440,Qualidade,Olívia Barbosa,Em uso,Windows 10 Pro,8.0,59.0,2021-08-23,2024-08-22,5626.13
+TI-000166,Celular,Samsung,Galaxy A55,Logística,Henrique Barbosa,Em uso,Android,,,2022-08-29,2023-08-29,2374.22
+TI-000167,Notebook,HP,ProBook 440 G10,Financeiro,Olívia Oliveira,Em uso,Windows 11 Pro,16.0,70.0,2020-04-17,2023-04-17,5499.39
+TI-000168,Monitor,Samsung,LS24C310,RH,,Descartado,—,,,2022-02-08,2023-02-08,893.09
+TI-000169,Monitor,Dell,P2422H,Diretoria,,Estoque,—,,,2021-06-27,2022-06-27,1451.18
+TI-000170,Celular,Samsung,Galaxy A55,Financeiro,Renata Almeida,Em uso,Android,,,2025-04-07,2028-04-06,1998.79
+TI-000171,Desktop,Dell,OptiPlex 3000,Diretoria,João Barbosa,Em uso,Windows 10 Pro,16.0,79.0,2022-10-31,2025-10-30,3998.76
+TI-000172,Notebook,HP,ProBook 440 G10,Qualidade,Tatiana Costa,Em uso,Windows 11 Pro,8.0,90.0,2024-10-27,2025-10-27,4068.19
+TI-000173,Monitor,Samsung,LS24C310,Logística,,Estoque,—,,,2023-09-29,2024-09-28,774.51
+TI-000174,Monitor,Dell,P2422H,RH,Henrique Rocha,Em uso,—,,,2023-04-29,2026-04-28,1129.19
+TI-000175,Notebook,Lenovo,ThinkPad E14,Comercial,Olívia Dias,Em uso,Windows 10 Pro,16.0,73.0,2022-01-19,2025-01-18,6158.14
+TI-000176,Notebook,Lenovo,ThinkPad E14,Financeiro,Diego Gomes,Em uso,Windows 10 Pro,32.0,69.0,2020-12-08,2021-12-08,4739.49
+TI-000177,Notebook,Lenovo,ThinkPad E14,Qualidade,Henrique Costa,Em uso,Windows 11 Pro,16.0,44.0,2019-10-24,2022-10-23,6193.15
+TI-000178,Desktop,Lenovo,ThinkCentre M70s,Logística,Carla Lima,Em uso,Windows 11 Pro,16.0,63.0,2021-02-18,2022-02-18,3370.76
+TI-000179,Desktop,Lenovo,ThinkCentre M70s,Produção,Ana Barbosa,Em uso,Windows 10 Pro,32.0,80.0,2023-07-05,2026-07-04,3363.34
+TI-000180,Notebook,HP,ProBook 440 G10,Diretoria,Sérgio Ferreira,Em uso,Windows 10 Pro,16.0,90.0,2024-07-12,2025-07-12,4193.0
+TI-000181,Notebook,Lenovo,ThinkPad E14,Diretoria,Lucas Costa,Em uso,Windows 10 Pro,8.0,81.0,2022-11-29,2023-11-29,4566.15
+TI-000182,Monitor,Dell,P2422H,Diretoria,Elisa Pereira,Em uso,—,,,2020-11-20,2023-11-20,1472.55
+TI-000183,Desktop,Lenovo,ThinkCentre M70s,Diretoria,João Pereira,Manutenção,Windows 10 Pro,16.0,60.0,2019-10-19,2022-10-18,4442.05
+TI-000184,Desktop,Dell,OptiPlex 3000,Administrativo,João Souza,Em uso,Windows 10 Pro,16.0,60.0,2022-01-15,2023-01-15,4137.82
+TI-000185,Monitor,LG,24MP400,RH,,Estoque,—,,,2020-10-31,2021-10-31,707.89
+TI-000186,Impressora,Brother,DCP-L5652DN,TI,,Em uso,—,,,2024-07-28,2027-07-28,2921.15
+TI-000187,Monitor,Dell,P2422H,TI,,Descartado,—,,,2021-01-31,2022-01-31,1307.47
+TI-000188,Monitor,Samsung,LS24C310,Comercial,Mariana Gomes,Em uso,—,,,2021-05-07,2024-05-06,786.57
+TI-000189,Monitor,Samsung,LS24C310,Logística,Paulo Dias,Em uso,—,,,2023-10-01,2026-09-30,706.22
+TI-000190,Switch,TP-Link,TL-SG3428,TI,,Manutenção,—,,,2023-06-22,2026-06-21,1558.52
+TI-000191,Desktop,Lenovo,ThinkCentre M70s,RH,Tatiana Rocha,Em uso,Windows 10 Pro,16.0,78.0,2023-06-27,2026-06-26,3358.89
+TI-000192,Switch,Cisco,CBS250-24T,TI,,Em uso,—,,,2022-10-30,2025-10-29,2692.59
+TI-000193,Celular,Motorola,Moto G84,Produção,,Estoque,Android,,,2020-05-29,2021-05-29,1546.27
+TI-000194,Monitor,LG,24MP400,Diretoria,,Estoque,—,,,2026-02-22,2027-02-22,713.12
+TI-000195,Desktop,Lenovo,ThinkCentre M70s,Administrativo,,Estoque,Windows 11 Pro,32.0,91.0,2025-08-02,2028-08-01,3968.43
+TI-000196,Notebook,Lenovo,ThinkPad E14,Logística,Bruno Barbosa,Em uso,Windows 11 Pro,16.0,73.0,2023-02-10,2026-02-09,5999.82
+TI-000197,Notebook,Dell,Latitude 3440,Produção,Fábio Souza,Em uso,Windows 11 Pro,8.0,60.0,2022-04-05,2025-04-04,5108.74
+TI-000198,Notebook,Lenovo,ThinkPad E14,Comercial,Sérgio Oliveira,Em uso,Windows 10 Pro,16.0,79.0,2023-07-10,2024-07-09,5874.98
+TI-000199,Desktop,Lenovo,ThinkCentre M70s,Produção,Fábio Almeida,Manutenção,Windows 11 Pro,16.0,77.0,2023-10-30,2026-10-29,4457.79
+TI-000200,Monitor,LG,24MP400,Financeiro,,Estoque,—,,,2022-03-21,2023-03-21,819.36
