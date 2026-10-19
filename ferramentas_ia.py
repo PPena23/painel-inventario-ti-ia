@@ -54,7 +54,7 @@ def buscar_ativos(
     tipo: Optional[str] = None,
     setor: Optional[str] = None,
     status: Optional[str] = None,
-    idade_minima_anos: Optional[float] = None,
+    idade_minima_anos: Optional[int] = None,
     saude_disco_maxima: Optional[int] = None,
     garantia_vencida: Optional[bool] = None,
     limite: int = 10,
@@ -65,7 +65,7 @@ def buscar_ativos(
         tipo: Notebook, Desktop, Monitor, Celular, Impressora, Switch ou Servidor.
         setor: Administrativo, Financeiro, Comercial, Logística, Produção, Qualidade, RH, TI ou Diretoria.
         status: Em uso, Estoque, Manutenção ou Descartado.
-        idade_minima_anos: só ativos com pelo menos essa idade, em anos.
+        idade_minima_anos: só ativos com pelo menos essa idade, em anos inteiros (ex.: 5).
         saude_disco_maxima: só computadores com saúde do disco menor ou igual a esse percentual (0 a 100).
         garantia_vencida: true para só garantia vencida, false para só garantia em dia.
         limite: quantos ativos de exemplo devolver na lista (máximo 50).
@@ -91,7 +91,7 @@ def resumo_por(
     tipo: Optional[str] = None,
     setor: Optional[str] = None,
     status: Optional[str] = None,
-    idade_minima_anos: Optional[float] = None,
+    idade_minima_anos: Optional[int] = None,
     saude_disco_maxima: Optional[int] = None,
     garantia_vencida: Optional[bool] = None,
 ) -> dict:

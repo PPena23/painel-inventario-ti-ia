@@ -1,6 +1,7 @@
 """Página Assistente: chat com o Gemini que consulta o inventário por function calling."""
 
 import os
+import re
 
 import streamlit as st
 from google import genai
@@ -12,6 +13,12 @@ INSTRUCOES = """Você é o assistente do inventário de TI de uma empresa (dados
 Responda em português do Brasil, de forma curta e objetiva.
 Para qualquer número, contagem, valor ou lista de ativos, SEMPRE use as ferramentas
 buscar_ativos ou resumo_por. Nunca invente ou estime dados.
+Passe para a ferramenta TODOS os critérios da pergunta (tipo, setor, status, idade,
+saúde do disco, garantia). Exemplos de pergunta -> chamada correta:
+- "Quantos notebooks têm mais de 5 anos?" -> buscar_ativos(tipo="Notebook", idade_minima_anos=5)
+- "Desktops do RH com disco abaixo de 50%" -> buscar_ativos(tipo="Desktop", setor="RH", saude_disco_maxima=50)
+- "Garantia vencida por tipo" -> resumo_por(campo="tipo", garantia_vencida=true)
+- "Quantos celulares em estoque?" -> buscar_ativos(tipo="Celular", status="Estoque")
 Valores em reais no formato R$ 1.234,56. Quando listar ativos, cite o código (TI-000123).
 Se a pergunta não for sobre o inventário de TI, diga educadamente que só ajuda com isso."""
 
@@ -45,8 +52,17 @@ def modelos_flash(chave: str) -> list[str]:
     nomes = [m.name.removeprefix("models/") for m in cliente(chave).models.list()
              if "generateContent" in (m.supported_actions or []) and "flash" in m.name
              and not any(x in m.name for x in ("image", "tts", "audio", "live"))]
-    # Flash-Lite primeiro: no plano gratuito ele permite bem mais pedidos por dia
-    return sorted(nomes, key=lambda n: ("lite" not in n, n))
+    # Ordem: aliases "-latest" (o Google sempre aponta para a versão atual),
+    # depois Flash-Lite (bem mais rápido e com mais cota grátis que o Flash), versões mais novas
+    # primeiro e previews por último. Versões antigas podem aparecer na lista mas
+    # já não aceitar chaves novas.
+    return sorted(nomes, key=ordem_modelo)
+
+
+def ordem_modelo(nome: str) -> tuple:
+    versao = re.search(r"(\d+(?:\.\d+)?)", nome)
+    return ("latest" not in nome, "lite" not in nome, "preview" in nome,
+            -float(versao.group(1)) if versao else 0.0, nome)
 
 
 st.title("Assistente de IA")
@@ -74,7 +90,7 @@ except errors.APIError as e:
 
 with st.sidebar:
     st.header("Assistente")
-    modelo = st.selectbox("Modelo", modelos, help="Flash-Lite gasta menos da cota gratuita.")
+    modelo = st.selectbox("Modelo", modelos, help="Flash-Lite responde mais rápido e gasta menos da cota gratuita.")
     if st.button("Nova conversa"):
         st.session_state.mensagens_ia = []
         st.session_state.pop("chat_ia", None)
@@ -82,12 +98,34 @@ with st.sidebar:
 
 # um objeto de chat guarda o histórico da conversa com o modelo;
 # troca de modelo = conversa nova
-if st.session_state.get("modelo_ia") != modelo:
-    st.session_state.modelo_ia = modelo
-    st.session_state.chat_ia = cliente(chave).chats.create(
-        model=modelo,
+def novo_chat(nome_modelo: str, historico=None):
+    return cliente(chave).chats.create(
+        model=nome_modelo, history=historico,
         config=types.GenerateContentConfig(system_instruction=INSTRUCOES, tools=FERRAMENTAS),
     )
+
+
+def enviar(pergunta: str) -> str:
+    """Envia ao modelo escolhido. Se ele estiver sobrecarregado (503), fora do ar
+    (500) ou aposentado (404), repete a pergunta nos próximos modelos da lista,
+    levando o histórico da conversa junto."""
+    candidatos = [modelo] + [m for m in modelos if m != modelo][:2]
+    for i, nome in enumerate(candidatos):
+        try:
+            if i > 0:
+                st.session_state.chat_ia = novo_chat(
+                    nome, st.session_state.chat_ia.get_history())
+            return st.session_state.chat_ia.send_message(pergunta).text
+        except errors.APIError as e:
+            if e.code not in (404, 500, 503) or i == len(candidatos) - 1:
+                raise
+            st.toast(f"{nome} indisponível agora, tentando outro modelo...")
+    return ""
+
+
+if st.session_state.get("modelo_ia") != modelo:
+    st.session_state.modelo_ia = modelo
+    st.session_state.chat_ia = novo_chat(modelo)
     st.session_state.mensagens_ia = []
 
 for msg in st.session_state.mensagens_ia:
@@ -114,7 +152,7 @@ if pergunta:
     with st.chat_message("assistant"):
         try:
             with st.spinner("Consultando o inventário..."):
-                resposta = st.session_state.chat_ia.send_message(pergunta).text
+                resposta = enviar(pergunta)
         except errors.APIError as e:
             resposta = ("⏳ A cota gratuita do Gemini acabou por agora. Tente de novo mais tarde "
                         "ou troque de modelo na barra lateral." if e.code == 429
